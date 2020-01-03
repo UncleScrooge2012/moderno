@@ -1,0 +1,43 @@
+.header
+  &__top
+    &-inner
+      display: flex
+      justify-content: space-between
+      align-items: center
+      height: 9rem
+
+  &__text
+    margin-left: auto
+    margin-right: 5rem
+    span
+      color: $red
+
+  &__btn
+    padding: 0.4rem
+    border-radius: 0.4rem
+    width: 7.2rem
+    color: #fff
+    text-align: center
+    font-size: 1.2rem
+    &-login
+      background-color: $green
+    &-register
+      background-color: $red
+      margin-left: 0.7rem
+
+  &__menu
+    background-color: $bg
+
+.menu
+  display: flex
+  align-items: center
+  height: 6rem
+  &__list
+    li
+      display: inline-block
+      & + li
+        margin-left: 3rem
+      a
+        color: #fff
+
+  
