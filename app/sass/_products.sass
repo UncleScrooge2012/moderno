@@ -32,6 +32,9 @@
         color: $bg
         padding: 2rem 3rem
         cursor: pointer
+        &.mixitup-control-active
+          background-color: $red
+          color: #fff    
         
 
 
@@ -86,6 +89,7 @@
       span 
       font-size: 1.4rem
       font-weight: 500
+      min-width: 25rem
       .avatar
         width: 3rem
         height: 3rem
@@ -93,7 +97,11 @@
         background: no-repeat center/cover
         display: inline-block
         margin-right: 1.4rem
-
+    
+    &-star
+      font-size: 1.2rem
+      span
+        color: $bg
 
 
 
