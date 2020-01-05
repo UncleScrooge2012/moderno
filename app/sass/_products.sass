@@ -62,7 +62,7 @@
 
     &-titel
       color: $bg      
-      font-weight: 500
+      @include f500
       font-size: 1.8rem
       display: block
   
@@ -74,13 +74,13 @@
     &-price
       font-size: 2rem
       color: $bg
-      font-weight: 700
+      @include f700
 
     &-info
       display: flex
       justify-content: space-between
       align-items: center      
-      font-weight: 700
+      @include f700
       padding: 1rem 3rem
 
     &-author
@@ -88,7 +88,7 @@
       align-items: center
       span 
       font-size: 1.4rem
-      font-weight: 500
+      @include f500
       min-width: 25rem
       .avatar
         width: 3rem
